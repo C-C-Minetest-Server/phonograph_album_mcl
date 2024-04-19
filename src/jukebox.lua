@@ -19,7 +19,7 @@ album:register_song("track_1", {
     long_description = nil,
     artist = "SoundHelix",
     spec = { -- a SimpleSoundSpec
-        name = "mcl_jukebox_track_1",
+        name = "phonograph_album_mcl_mcl_jukebox_track_1",
     }
 })
 
@@ -30,7 +30,7 @@ album:register_song("track_2", {
     long_description = nil,
     artist = "SoundHelix",
     spec = { -- a SimpleSoundSpec
-        name = "mcl_jukebox_track_2",
+        name = "phonograph_album_mcl_mcl_jukebox_track_2",
     }
 })
 
@@ -41,7 +41,7 @@ album:register_song("track_3", {
     long_description = nil,
     artist = "Jordach",
     spec = { -- a SimpleSoundSpec
-        name = "mcl_jukebox_track_3",
+        name = "phonograph_album_mcl_mcl_jukebox_track_3",
     }
 })
 
@@ -52,7 +52,7 @@ album:register_song("track_4", {
     long_description = nil,
     artist = "Jordach",
     spec = { -- a SimpleSoundSpec
-        name = "mcl_jukebox_track_4",
+        name = "phonograph_album_mcl_mcl_jukebox_track_4",
     }
 })
 
@@ -64,7 +64,7 @@ album:register_song("track_5", {
     long_description = nil,
     artist = "Darkroom", -- or mactonite
     spec = { -- a SimpleSoundSpec
-        name = "mcl_jukebox_track_5",
+        name = "phonograph_album_mcl_mcl_jukebox_track_5",
     }
 })
 
@@ -76,7 +76,7 @@ album:register_song("track_6", {
     long_description = nil,
     artist = "Tom Peter",
     spec = { -- a SimpleSoundSpec
-        name = "mcl_jukebox_track_6",
+        name = "phonograph_album_mcl_mcl_jukebox_track_6",
     }
 })
 
@@ -87,7 +87,7 @@ album:register_song("track_7", {
     long_description = nil,
     artist = "HeroOfTheWinds",
     spec = { -- a SimpleSoundSpec
-        name = "mcl_jukebox_track_7",
+        name = "phonograph_album_mcl_mcl_jukebox_track_7",
     }
 })
 
@@ -98,6 +98,6 @@ album:register_song("track_8", {
     long_description = nil,
     artist = "SoundHelix",
     spec = { -- a SimpleSoundSpec
-        name = "mcl_jukebox_track_8",
+        name = "phonograph_album_mcl_mcl_jukebox_track_8",
     }
 })

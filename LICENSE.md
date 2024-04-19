@@ -26,8 +26,8 @@
 Media are licensed under different licenses.
 
 * `phonograph_album_mcl_icon.png`: [CC BY-SA 3.0][CCBYSA3], by Wuzzy and epCode
-* `mcl_jukebox_track_5.ogg`: [CC BY 3.0][CCBY3], from <https://ccmixter.org/files/mactonite/65379>, by Darkroom
-* `mcl_jukebox_track_6.ogg`: [CC BY-SA 3.0][CCBYSA3], from <https://opengameart.org/content/winter-feeling>, by Tom Peter
+* `phonograph_album_mcl_mcl_jukebox_track_5.ogg`: [CC BY 3.0][CCBY3], from <https://ccmixter.org/files/mactonite/65379>, by Darkroom
+* `phonograph_album_mcl_mcl_jukebox_track_6.ogg`: [CC BY-SA 3.0][CCBYSA3], from <https://opengameart.org/content/winter-feeling>, by Tom Peter
 * other `mcl_jukebox_track_*`: [CC0][CC0], by various authors (see `src/jukebox.lua`)
 
 [CCBYSA3]: http://creativecommons.org/licenses/by-sa/3.0/
