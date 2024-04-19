@@ -31,4 +31,5 @@ Media are licensed under different licenses.
 * other `mcl_jukebox_track_*`: [CC0][CC0], by various authors (see `src/jukebox.lua`)
 
 [CCBYSA3]: http://creativecommons.org/licenses/by-sa/3.0/
+[CCBY3]: http://creativecommons.org/licenses/by/3.0/
 [CC0]: https://creativecommons.org/publicdomain/zero/1.0/
