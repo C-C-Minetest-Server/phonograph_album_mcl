@@ -5,3 +5,4 @@
 local MP = minetest.get_modpath("phonograph_album_mcl")
 
 dofile(MP .. "/src/jukebox.lua")
+dofile(MP .. "/src/ambience.lua")

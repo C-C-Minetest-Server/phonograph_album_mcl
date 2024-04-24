@@ -14,10 +14,10 @@ local album = phonograph.register_album("phonograph_album_mcl:album_jukebox", {
 
 -- Track license: CC0
 album:register_song("track_1", {
-    title = S("The Evil Sister (Jordach's Mix)"),
+    title = S("The Evil Sister"),
     short_description = nil,
     long_description = nil,
-    artist = "SoundHelix",
+    artist = S("@1 (Jordach's Mix)", "SoundHelix"),
     spec = { -- a SimpleSoundSpec
         name = "phonograph_album_mcl_mcl_jukebox_track_1",
     }
@@ -25,10 +25,10 @@ album:register_song("track_1", {
 
 -- Track license: CC0
 album:register_song("track_2", {
-    title = S("The Energetic Rat (Jordach's Mix)"),
+    title = S("The Energetic Rat"),
     short_description = nil,
     long_description = nil,
-    artist = "SoundHelix",
+    artist = S("@1 (Jordach's Mix)", "SoundHelix"),
     spec = { -- a SimpleSoundSpec
         name = "phonograph_album_mcl_mcl_jukebox_track_2",
     }
@@ -82,10 +82,10 @@ album:register_song("track_6", {
 
 -- Track license: CC0
 album:register_song("track_7", {
-    title = S("Synthgroove (Jordach's Mix)"),
+    title = S("Synthgroove"),
     short_description = nil,
     long_description = nil,
-    artist = "HeroOfTheWinds",
+    artist = S("@1 (Jordach's Mix)", "HeroOfTheWinds"),
     spec = { -- a SimpleSoundSpec
         name = "phonograph_album_mcl_mcl_jukebox_track_7",
     }
@@ -93,10 +93,10 @@ album:register_song("track_7", {
 
 -- Track license: CC0
 album:register_song("track_8", {
-    title = S("The Clueless Frog (Jordach's Mix)"),
+    title = S("The Clueless Frog"),
     short_description = nil,
     long_description = nil,
-    artist = "SoundHelix",
+    artist = S("@1 (Jordach's Mix)", "SoundHelix"),
     spec = { -- a SimpleSoundSpec
         name = "phonograph_album_mcl_mcl_jukebox_track_8",
     }
