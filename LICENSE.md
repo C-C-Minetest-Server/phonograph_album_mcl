@@ -2,7 +2,7 @@
 
 ## License of code
 
-```
+```plain
     phonograph_album_mcl: Songs from VoxelLibre for Phonographs
     Copyright (C) 2024  1F616EMO
 
