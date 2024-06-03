@@ -113,10 +113,10 @@ album:register_song("exhale_and_tim_unwin-lonely_blossom", {
 -- Track license: CC BY-SA 4.0
 -- Artist page: https://www.youtube.com/channel/UClFo_JDWoG4NGrPQY0JPD_g
 album:register_song("exhale_and_tim_unwin-farmer", {
-    title = S("Lonely Blossom"),
+    title = S("Farmer"),
     short_description = nil,
     long_description = nil,
-    artist = "Farmer",
+    artist = "Exhale & Tim Unwin",
     spec = { -- a SimpleSoundSpec
         name = "phonograph_album_mcl_ambience_exhale_and_tim_unwin-farmer",
     }
