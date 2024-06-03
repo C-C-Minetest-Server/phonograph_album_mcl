@@ -17,7 +17,7 @@ local album = phonograph.register_album("phonograph_album_mcl:album_ambience", {
 -- Artist page: https://soundcloud.com/dark-reaven-music
 album:register_song("horizonchris96-traitor", {
     title = S("Traitor"),
-    short_description = nil,
+    short_description = S("Played in the nether"),
     long_description = nil,
     artist = "Dark Reaven Music",
     spec = { -- a SimpleSoundSpec
@@ -30,7 +30,7 @@ album:register_song("horizonchris96-traitor", {
 -- Artist page: https://soundcloud.com/dark-reaven-music
 album:register_song("drm_theme", {
     title = S("Calmed Cube"),
-    short_description = nil,
+    short_description = S("The song played in the main menu"),
     long_description = nil,
     artist = "Dark Reaven Music",
     spec = { -- a SimpleSoundSpec
@@ -42,7 +42,7 @@ album:register_song("drm_theme", {
 -- Artist page: https://www.youtube.com/@Jester-8-bit
 album:register_song("Jester-Hailing_Forest", {
     title = S("Hailing Forest"),
-    short_description = nil,
+    short_description = S("Played in the overworld"),
     long_description = nil,
     artist = "Jester",
     spec = { -- a SimpleSoundSpec
@@ -54,7 +54,7 @@ album:register_song("Jester-Hailing_Forest", {
 -- Artist page: https://www.youtube.com/@Jester-8-bit
 album:register_song("Jester-Gift", {
     title = S("Gift"),
-    short_description = nil,
+    short_description = S("Played in the overworld"),
     long_description = nil,
     artist = "Jester",
     spec = { -- a SimpleSoundSpec
@@ -66,7 +66,7 @@ album:register_song("Jester-Gift", {
 -- Artist page: https://www.youtube.com/@Jester-8-bit
 album:register_song("Jester-0dd-BL0ck", {
     title = S("0dd BL0ck"),
-    short_description = nil,
+    short_description = S("Played while mining"),
     long_description = nil,
     artist = "Jester",
     spec = { -- a SimpleSoundSpec
@@ -78,7 +78,7 @@ album:register_song("Jester-0dd-BL0ck", {
 -- Artist page: https://www.youtube.com/@Jester-8-bit
 album:register_song("Jester-Flock-of-One", {
     title = S("Flock of One"),
-    short_description = nil,
+    short_description = S("Played in the overworld"),
     long_description = nil,
     artist = "Jester",
     spec = { -- a SimpleSoundSpec
@@ -90,7 +90,7 @@ album:register_song("Jester-Flock-of-One", {
 -- Artist page: https://www.youtube.com/channel/UClFo_JDWoG4NGrPQY0JPD_g
 album:register_song("exhale_and_tim_unwin-valley_of_ghosts", {
     title = S("Valley of Ghosts"),
-    short_description = nil,
+    short_description = S("Played in the nether"),
     long_description = nil,
     artist = "Exhale & Tim Unwin",
     spec = { -- a SimpleSoundSpec
@@ -102,7 +102,7 @@ album:register_song("exhale_and_tim_unwin-valley_of_ghosts", {
 -- Artist page: https://www.youtube.com/channel/UClFo_JDWoG4NGrPQY0JPD_g
 album:register_song("exhale_and_tim_unwin-lonely_blossom", {
     title = S("Lonely Blossom"),
-    short_description = nil,
+    short_description = S("Played in the overworld"),
     long_description = nil,
     artist = "Exhale & Tim Unwin",
     spec = { -- a SimpleSoundSpec
@@ -114,7 +114,7 @@ album:register_song("exhale_and_tim_unwin-lonely_blossom", {
 -- Artist page: https://www.youtube.com/channel/UClFo_JDWoG4NGrPQY0JPD_g
 album:register_song("exhale_and_tim_unwin-farmer", {
     title = S("Farmer"),
-    short_description = nil,
+    short_description = S("Played in the overworld"),
     long_description = nil,
     artist = "Exhale & Tim Unwin",
     spec = { -- a SimpleSoundSpec
@@ -125,7 +125,7 @@ album:register_song("exhale_and_tim_unwin-farmer", {
 -- Track license: CC BY-SA 4.0
 album:register_song("diminixed-pianowtune02", {
     title = S("Afternoon Lullaby"),
-    short_description = nil,
+    short_description = S("Played in the overworld"),
     long_description = nil,
     artist = "Diminixed",
     spec = { -- a SimpleSoundSpec
@@ -136,7 +136,7 @@ album:register_song("diminixed-pianowtune02", {
 -- Track license: CC BY-SA 4.0
 album:register_song("diminixed-ambientwip02", {
     title = S("Spooled"),
-    short_description = nil,
+    short_description = S("Played in the end"),
     long_description = nil,
     artist = "Diminixed",
     spec = { -- a SimpleSoundSpec
@@ -147,7 +147,7 @@ album:register_song("diminixed-ambientwip02", {
 -- Track license: CC BY-SA 4.0
 album:register_song("diminixed-nevergrowup04", {
     title = S("Never Grow Up"),
-    short_description = nil,
+    short_description = S("Played in the overworld"),
     long_description = nil,
     artist = "Diminixed",
     spec = { -- a SimpleSoundSpec
