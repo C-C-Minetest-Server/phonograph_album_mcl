@@ -12,15 +12,19 @@ local album = phonograph.register_album("phonograph_album_mcl:album_jukebox", {
     artist = S("Various Artists"),
 })
 
+local MP = minetest.get_modpath("phonograph_album_mcl")
+local function songpath(name)
+    return table.concat({MP, "phonographs", name .. ".ogg"}, DIR_DELIM)
+end
+
 -- Track license: CC0
 album:register_song("track_1", {
     title = S("The Evil Sister"),
     short_description = nil,
     long_description = nil,
     artist = S("@1 (Jordach's Mix)", "SoundHelix"),
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_mcl_jukebox_track_1",
-    }
+    filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_1"),
+    spec = {},
 })
 
 -- Track license: CC0
@@ -29,9 +33,8 @@ album:register_song("track_2", {
     short_description = nil,
     long_description = nil,
     artist = S("@1 (Jordach's Mix)", "SoundHelix"),
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_mcl_jukebox_track_2",
-    }
+    filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_2"),
+    spec = {},
 })
 
 -- Track license: CC0
@@ -40,9 +43,8 @@ album:register_song("track_3", {
     short_description = nil,
     long_description = nil,
     artist = "Jordach",
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_mcl_jukebox_track_3",
-    }
+    filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_3"),
+    spec = {},
 })
 
 -- Track license: CC0
@@ -51,9 +53,8 @@ album:register_song("track_4", {
     short_description = nil,
     long_description = nil,
     artist = "Jordach",
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_mcl_jukebox_track_4",
-    }
+    filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_4"),
+    spec = {},
 })
 
 -- Track license: CC BY 3.0
@@ -63,9 +64,8 @@ album:register_song("track_5", {
     short_description = nil,
     long_description = nil,
     artist = "Darkroom", -- or mactonite
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_mcl_jukebox_track_5",
-    }
+    filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_5"),
+    spec = {},
 })
 
 -- Track license: CC BY-SA 3.0
@@ -75,9 +75,8 @@ album:register_song("track_6", {
     short_description = nil,
     long_description = nil,
     artist = "Tom Peter",
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_mcl_jukebox_track_6",
-    }
+    filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_6"),
+    spec = {},
 })
 
 -- Track license: CC0
@@ -86,9 +85,8 @@ album:register_song("track_7", {
     short_description = nil,
     long_description = nil,
     artist = S("@1 (Jordach's Mix)", "HeroOfTheWinds"),
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_mcl_jukebox_track_7",
-    }
+    filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_7"),
+    spec = {},
 })
 
 -- Track license: CC0
@@ -97,7 +95,6 @@ album:register_song("track_8", {
     short_description = nil,
     long_description = nil,
     artist = S("@1 (Jordach's Mix)", "SoundHelix"),
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_mcl_jukebox_track_8",
-    }
+    filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_8"),
+    spec = {},
 })

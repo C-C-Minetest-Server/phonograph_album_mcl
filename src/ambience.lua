@@ -13,6 +13,11 @@ local album = phonograph.register_album("phonograph_album_mcl:album_ambience", {
     artist = S("Various Artists"),
 })
 
+local MP = minetest.get_modpath("phonograph_album_mcl")
+local function songpath(name)
+    return table.concat({MP, "phonographs", name .. ".ogg"}, DIR_DELIM)
+end
+
 -- Track license: CC BY-SA 4.0
 -- Artist page: https://soundcloud.com/dark-reaven-music
 album:register_song("horizonchris96-traitor", {
@@ -20,9 +25,8 @@ album:register_song("horizonchris96-traitor", {
     short_description = S("Played in the nether"),
     long_description = nil,
     artist = "Dark Reaven Music",
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_ambience_horizonchris96-traitor",
-    }
+    filepath = songpath("phonograph_album_mcl_ambience_horizonchris96-traitor"),
+    spec = {},
 })
 
 -- Track license: CC BY-SA 4.0
@@ -33,9 +37,8 @@ album:register_song("drm_theme", {
     short_description = S("The song played in the main menu"),
     long_description = nil,
     artist = "Dark Reaven Music",
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_ambience_drm_theme",
-    }
+    filepath = songpath("phonograph_album_mcl_ambience_drm_theme"),
+    spec = {},
 })
 
 -- Track license: CC BY-SA 4.0
@@ -45,9 +48,8 @@ album:register_song("Jester-Hailing_Forest", {
     short_description = S("Played in the overworld"),
     long_description = nil,
     artist = "Jester",
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_ambience_Jester-Hailing_Forest",
-    }
+    filepath = songpath("phonograph_album_mcl_ambience_Jester-Hailing_Forest"),
+    spec = {},
 })
 
 -- Track license: CC BY-SA 4.0
@@ -57,9 +59,8 @@ album:register_song("Jester-Gift", {
     short_description = S("Played in the overworld"),
     long_description = nil,
     artist = "Jester",
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_ambience_Jester-Gift",
-    }
+    filepath = songpath("phonograph_album_mcl_ambience_Jester-Gift"),
+    spec = {},
 })
 
 -- Track license: CC BY-SA 4.0
@@ -69,9 +70,8 @@ album:register_song("Jester-0dd-BL0ck", {
     short_description = S("Played while mining"),
     long_description = nil,
     artist = "Jester",
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_ambience_Jester-0dd-BL0ck",
-    }
+    filepath = songpath("phonograph_album_mcl_ambience_Jester-0dd-BL0ck"),
+    spec = {},
 })
 
 -- Track license: CC BY-SA 4.0
@@ -81,9 +81,8 @@ album:register_song("Jester-Flock-of-One", {
     short_description = S("Played in the overworld"),
     long_description = nil,
     artist = "Jester",
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_ambience_Jester-Flock-of-One",
-    }
+    filepath = songpath("phonograph_album_mcl_ambience_Jester-Flock-of-One"),
+    spec = {},
 })
 
 -- Track license: CC BY-SA 4.0
@@ -93,9 +92,8 @@ album:register_song("exhale_and_tim_unwin-valley_of_ghosts", {
     short_description = S("Played in the nether"),
     long_description = nil,
     artist = "Exhale & Tim Unwin",
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_ambience_exhale_and_tim_unwin-valley_of_ghosts",
-    }
+    filepath = songpath("phonograph_album_mcl_ambience_exhale_and_tim_unwin-valley_of_ghosts"),
+    spec = {},
 })
 
 -- Track license: CC BY-SA 4.0
@@ -105,9 +103,8 @@ album:register_song("exhale_and_tim_unwin-lonely_blossom", {
     short_description = S("Played in the overworld"),
     long_description = nil,
     artist = "Exhale & Tim Unwin",
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_ambience_exhale_and_tim_unwin-lonely_blossom",
-    }
+    filepath = songpath("phonograph_album_mcl_ambience_exhale_and_tim_unwin-lonely_blossom"),
+    spec = {},
 })
 
 -- Track license: CC BY-SA 4.0
@@ -117,9 +114,8 @@ album:register_song("exhale_and_tim_unwin-farmer", {
     short_description = S("Played in the overworld"),
     long_description = nil,
     artist = "Exhale & Tim Unwin",
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_ambience_exhale_and_tim_unwin-farmer",
-    }
+    filepath = songpath("phonograph_album_mcl_ambience_exhale_and_tim_unwin-farmer"),
+    spec = {},
 })
 
 -- Track license: CC BY-SA 4.0
@@ -128,9 +124,8 @@ album:register_song("diminixed-pianowtune02", {
     short_description = S("Played in the overworld"),
     long_description = nil,
     artist = "Diminixed",
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_ambience_diminixed-pianowtune02",
-    }
+    filepath = songpath("phonograph_album_mcl_ambience_diminixed-pianowtune02"),
+    spec = {},
 })
 
 -- Track license: CC BY-SA 4.0
@@ -139,9 +134,8 @@ album:register_song("diminixed-ambientwip02", {
     short_description = S("Played in the end"),
     long_description = nil,
     artist = "Diminixed",
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_ambience_diminixed-ambientwip02",
-    }
+    filepath = songpath("phonograph_album_mcl_ambience_diminixed-ambientwip02"),
+    spec = {},
 })
 
 -- Track license: CC BY-SA 4.0
@@ -150,7 +144,6 @@ album:register_song("diminixed-nevergrowup04", {
     short_description = S("Played in the overworld"),
     long_description = nil,
     artist = "Diminixed",
-    spec = { -- a SimpleSoundSpec
-        name = "phonograph_album_mcl_ambience_diminixed-nevergrowup04",
-    }
+    filepath = songpath("phonograph_album_mcl_ambience_diminixed-nevergrowup04"),
+    spec = {},
 })
