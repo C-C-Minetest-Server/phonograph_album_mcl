@@ -2,7 +2,7 @@
 -- Songs from VoxelLibre for Phonographs
 -- SPDX-License-Identifier: LGPL-2.1-or-later
 
-local S = minetest.get_translator("phonograph_album_mcl")
+local S = core.get_translator("phonograph_album_mcl")
 
 local album = phonograph.register_album("phonograph_album_mcl:album_jukebox", {
     title = S("VoxelLibre Jukeboxes"),
@@ -12,7 +12,7 @@ local album = phonograph.register_album("phonograph_album_mcl:album_jukebox", {
     artist = S("Various Artists"),
 })
 
-local MP = minetest.get_modpath("phonograph_album_mcl")
+local MP = core.get_modpath("phonograph_album_mcl")
 local function songpath(name)
     return table.concat({MP, "phonographs", name .. ".ogg"}, DIR_DELIM)
 end
