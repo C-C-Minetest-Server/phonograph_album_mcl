@@ -27,6 +27,7 @@ album:register_song("horizonchris96-traitor", {
     artist = "Dark Reaven Music",
     filepath = songpath("phonograph_album_mcl_ambience_horizonchris96-traitor"),
     spec = {},
+    license = phonograph.licenses.CCBYSA4,
 })
 
 -- Track license: CC BY-SA 4.0
@@ -39,6 +40,7 @@ album:register_song("drm_theme", {
     artist = "Dark Reaven Music",
     filepath = songpath("phonograph_album_mcl_ambience_drm_theme"),
     spec = {},
+    license = phonograph.licenses.CCBYSA4,
 })
 
 -- Track license: CC BY-SA 4.0
@@ -50,6 +52,7 @@ album:register_song("Jester-Hailing_Forest", {
     artist = "Jester",
     filepath = songpath("phonograph_album_mcl_ambience_Jester-Hailing_Forest"),
     spec = {},
+    license = phonograph.licenses.CCBYSA4,
 })
 
 -- Track license: CC BY-SA 4.0
@@ -61,6 +64,7 @@ album:register_song("Jester-Gift", {
     artist = "Jester",
     filepath = songpath("phonograph_album_mcl_ambience_Jester-Gift"),
     spec = {},
+    license = phonograph.licenses.CCBYSA4,
 })
 
 -- Track license: CC BY-SA 4.0
@@ -72,6 +76,7 @@ album:register_song("Jester-0dd-BL0ck", {
     artist = "Jester",
     filepath = songpath("phonograph_album_mcl_ambience_Jester-0dd-BL0ck"),
     spec = {},
+    license = phonograph.licenses.CCBYSA4,
 })
 
 -- Track license: CC BY-SA 4.0
@@ -83,6 +88,7 @@ album:register_song("Jester-Flock-of-One", {
     artist = "Jester",
     filepath = songpath("phonograph_album_mcl_ambience_Jester-Flock-of-One"),
     spec = {},
+    license = phonograph.licenses.CCBYSA4,
 })
 
 -- Track license: CC BY-SA 4.0
@@ -94,6 +100,7 @@ album:register_song("exhale_and_tim_unwin-valley_of_ghosts", {
     artist = "Exhale & Tim Unwin",
     filepath = songpath("phonograph_album_mcl_ambience_exhale_and_tim_unwin-valley_of_ghosts"),
     spec = {},
+    license = phonograph.licenses.CCBYSA4,
 })
 
 -- Track license: CC BY-SA 4.0
@@ -105,6 +112,7 @@ album:register_song("exhale_and_tim_unwin-lonely_blossom", {
     artist = "Exhale & Tim Unwin",
     filepath = songpath("phonograph_album_mcl_ambience_exhale_and_tim_unwin-lonely_blossom"),
     spec = {},
+    license = phonograph.licenses.CCBYSA4,
 })
 
 -- Track license: CC BY-SA 4.0
@@ -116,6 +124,7 @@ album:register_song("exhale_and_tim_unwin-farmer", {
     artist = "Exhale & Tim Unwin",
     filepath = songpath("phonograph_album_mcl_ambience_exhale_and_tim_unwin-farmer"),
     spec = {},
+    license = phonograph.licenses.CCBYSA4,
 })
 
 -- Track license: CC BY-SA 4.0
@@ -126,6 +135,7 @@ album:register_song("diminixed-pianowtune02", {
     artist = "Diminixed",
     filepath = songpath("phonograph_album_mcl_ambience_diminixed-pianowtune02"),
     spec = {},
+    license = phonograph.licenses.CCBYSA4,
 })
 
 -- Track license: CC BY-SA 4.0
@@ -136,6 +146,7 @@ album:register_song("diminixed-ambientwip02", {
     artist = "Diminixed",
     filepath = songpath("phonograph_album_mcl_ambience_diminixed-ambientwip02"),
     spec = {},
+    license = phonograph.licenses.CCBYSA4,
 })
 
 -- Track license: CC BY-SA 4.0
@@ -146,4 +157,5 @@ album:register_song("diminixed-nevergrowup04", {
     artist = "Diminixed",
     filepath = songpath("phonograph_album_mcl_ambience_diminixed-nevergrowup04"),
     spec = {},
+    license = phonograph.licenses.CCBYSA4,
 })

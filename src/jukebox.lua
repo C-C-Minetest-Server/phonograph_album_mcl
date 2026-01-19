@@ -25,6 +25,7 @@ album:register_song("track_1", {
     artist = S("@1 (Jordach's Mix)", "SoundHelix"),
     filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_1"),
     spec = {},
+    license = phonograph.licenses.CC0,
 })
 
 -- Track license: CC0
@@ -35,6 +36,7 @@ album:register_song("track_2", {
     artist = S("@1 (Jordach's Mix)", "SoundHelix"),
     filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_2"),
     spec = {},
+    license = phonograph.licenses.CC0,
 })
 
 -- Track license: CC0
@@ -45,6 +47,7 @@ album:register_song("track_3", {
     artist = "Jordach",
     filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_3"),
     spec = {},
+    license = phonograph.licenses.CC0,
 })
 
 -- Track license: CC0
@@ -55,6 +58,7 @@ album:register_song("track_4", {
     artist = "Jordach",
     filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_4"),
     spec = {},
+    license = phonograph.licenses.CC0,
 })
 
 -- Track license: CC BY 3.0
@@ -66,6 +70,7 @@ album:register_song("track_5", {
     artist = "Darkroom", -- or mactonite
     filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_5"),
     spec = {},
+    license = phonograph.licenses.CCBY3,
 })
 
 -- Track license: CC BY-SA 3.0
@@ -77,6 +82,7 @@ album:register_song("track_6", {
     artist = "Tom Peter",
     filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_6"),
     spec = {},
+    license = phonograph.licenses.CCBYSA3,
 })
 
 -- Track license: CC0
@@ -87,6 +93,7 @@ album:register_song("track_7", {
     artist = S("@1 (Jordach's Mix)", "HeroOfTheWinds"),
     filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_7"),
     spec = {},
+    license = phonograph.licenses.CC0,
 })
 
 -- Track license: CC0
@@ -97,4 +104,5 @@ album:register_song("track_8", {
     artist = S("@1 (Jordach's Mix)", "SoundHelix"),
     filepath = songpath("phonograph_album_mcl_mcl_jukebox_track_8"),
     spec = {},
+    license = phonograph.licenses.CC0,
 })
