@@ -38,7 +38,7 @@ for _, data in ipairs({
     local id, title, has_stereo, artist, license = unpack(data)
     album:register_song(id, {
         title = title,
-        short_description = short_description,
+        short_description = nil,
         long_description = nil,
         artist = artist,
         license = license,
